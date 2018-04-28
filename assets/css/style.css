@@ -1,8 +1,18 @@
-.body {
-    background-color:grey;
+.background {
+    background-image: url("https://i.imgur.com/3c6GHdp.png");
+    background-color: #1c1171;
 }
 
 .text {
-    color:darkred;
+    color: #1c1171;
     font-family: "Acme";
+}
+
+.panel1 {
+    background-color: white;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #1c1171;
+    width: 960px;
 }
