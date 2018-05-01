@@ -1,11 +1,24 @@
 body {
     background-image: url("https://i.imgur.com/4nTePTC.png");
     background-color: #1c1171;
+    margin: 0;
 }
 
 .text {
     color: #1c1171;
     font-family: "Acme";
+}
+
+.header {
+    background-color: #fffae7;
+    width: 100%;
+    height: 20;
+    position: relative;
+    border-style: solid;
+    border-color: #1c1171;
+    border-bottom-width: 5px;
+    top: 0;
+    text-align: center;
 }
 
 .panel1 {
@@ -18,7 +31,8 @@ body {
 }
 
 .btn {
-    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     border: none;
     background-color: #fffae7;
     font-size: 16px;
@@ -28,33 +42,38 @@ body {
 
 .ftrcontent {
     text-align: center;
-    text-shadow:
-   -1px -1px 0 #fffae7,  
-    1px -1px 0 #fffae7,
-    -1px 1px 0 #fffae7,
-     1px 1px 0 #fffae7;
     color: #1c1171;
     font-family: "Acme";
 }
 
+.hr {
+    width: 90%;
+    color: #1c1171;
+}
+
 footer {
     width: 100%;
-    height: 10%;
+    height: 4%;
     position: absolute;
+    border-style: solid;
+    border-color: #1c1171;
+    border-top-width: 5px;
     bottom: 0;
     left: 0;
-    background: linear-gradient( rgba(255,0,0,0), rgba(109, 4, 50, 0.685));
+    background: #fffae7;
 }
 
 #htitle {
-    margin-left: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
     width: 400px;
+    margin-top: 20px;
+    float: left;
 }
 
 #par1 {
     width: 480px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 60px;
     float: left;
 }
 
@@ -65,5 +84,5 @@ footer {
     width: 300px;
     height: 300px;
     margin-bottom: 20px;
-    margin-left: 56px;
+    margin-left: 40px;
 }
